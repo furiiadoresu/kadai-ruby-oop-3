@@ -2,7 +2,7 @@ require './animal'
 require './thinkable'
 
 class Human < Animal
-  include ThinkMethods
+  include Thinkable
   
   attr_accessor :hobby
   
